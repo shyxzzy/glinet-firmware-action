@@ -6,8 +6,14 @@ feeds:
     branch: master
 packages:
   - luci-app-mwan3
-
-
+  - luci-app-quickstart
+  - luci-app-argon-config
+  - luci-app-openclash
+  - luci-app-unblockmusic
+  - luci-app-vlmcsd
+  - luci-app-argon-config
+  - luci-app-diskman
+  - luci-app-ttyd
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
